@@ -44,3 +44,11 @@ a {
   background-color: var(--bg);
   color: var(--textColor);
 }
+
+.ql-container {
+  font-size: 28px !important;
+}
+
+.quill > .ql-container > .ql-editor.ql-blank::before {
+  color: #b3b3b1;
+}
